@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,7 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +21,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  android,
+  bootstrap,
+  tumbler,
+  chatapp,
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +52,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -73,8 +75,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Android",
+    icon: android,
   },
   {
     name: "React JS",
@@ -109,8 +111,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
 ];
 
@@ -198,9 +200,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tumbler-SocialMedia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that a social media web application built with React which Post updates, share media, and engage in real-time conversations with friends and followers.",
     tags: [
       {
         name: "react",
@@ -211,17 +213,27 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+
+      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tumbler,
+    source_code_link:
+      "https://github.com/kritikaVijaysinghRajput/tumbler-frontend",
   },
   {
-    name: "Job IT",
+    name: "Chat Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Elevate your communication with our React-based chat application powered by Chat Engine. Experience real-time, seamless conversations with friends and loved ones through a user-friendly interface. Share messages, images, and emotions effortlessly, all backed by the robust technology of Chat Engine.",
     tags: [
       {
         name: "react",
@@ -232,12 +244,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "chat engine",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chatapp,
+    source_code_link:
+      "https://github.com/kritikaVijaysinghRajput/Chat-App-ChatEngine",
   },
   {
     name: "Trip Guide",
