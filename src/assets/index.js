@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Spotifyclone from "./Spotifyclone.png";
 import tumbler from "./tumbler.png";
 import chatapp from "./chatapp.png";
 
@@ -60,7 +60,7 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  Spotifyclone,
   android,
   bootstrap,
   tumbler,

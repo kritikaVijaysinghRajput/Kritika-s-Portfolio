@@ -17,9 +17,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Spotifyclone,
   threejs,
   android,
   bootstrap,
@@ -231,9 +229,30 @@ const projects = [
       "https://github.com/kritikaVijaysinghRajput/tumbler-frontend",
   },
   {
+    name: "Spotify-Clone",
+    description:
+      "This project aims to replicate the core features of Spotify, allowing users to browse and play music tracks, create playlists, and explore their favorite music genres. By leveraging Next.js's server-side rendering capabilities and the Spotify API, this clone will provide a seamless and responsive music streaming experience, showcasing your skills in web development and user interface design.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Spotifyclone,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "Chat Application",
     description:
-      "Elevate your communication with our React-based chat application powered by Chat Engine. Experience real-time, seamless conversations with friends and loved ones through a user-friendly interface. Share messages, images, and emotions effortlessly, all backed by the robust technology of Chat Engine.",
+      "Elevate your communication with our React-based chat application powered by Chat Engine through a user-friendly interface. Share messages, images, and emotions effortlessly, all backed by the robust technology of Chat Engine.",
     tags: [
       {
         name: "react",
@@ -251,27 +270,6 @@ const projects = [
     image: chatapp,
     source_code_link:
       "https://github.com/kritikaVijaysinghRajput/Chat-App-ChatEngine",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
